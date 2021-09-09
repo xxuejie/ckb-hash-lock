@@ -6,7 +6,7 @@ CFLAGS := -fPIC -O3 -g -fno-builtin-printf -fno-builtin-memcmp -nostdinc -nostdl
 LDFLAGS := -Wl,-static -fdata-sections -ffunction-sections -Wl,--gc-sections
 
 # docker pull nervos/ckb-riscv-gnu-toolchain:bionic-20210804
-BUILDER_DOCKER := nervos/ckb-riscv-gnu-toolchain@sha256:994fbf92e0372a28f7aec4ebea75315e3ebcf2ed7a5e95520aab903ae8cfd21c
+BUILDER_DOCKER := nervos/ckb-riscv-gnu-toolchain@sha256:cfeb97864cf2039a0900bfa83c3f112a780b2281bded395604b8a8a693c95e08
 
 all: build/hash_lock
 
